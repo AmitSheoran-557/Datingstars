@@ -11,6 +11,8 @@ $(".slider-card-parent").slick({
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
+          arrows: false,
+
         },
       },
       {
@@ -18,6 +20,7 @@ $(".slider-card-parent").slick({
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          arrows: false,
         },
       },
       {
@@ -25,6 +28,7 @@ $(".slider-card-parent").slick({
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          arrows: false,
         },
       },
     ],
